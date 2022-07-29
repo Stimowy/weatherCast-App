@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-image: url(img/stock-photo-weather-forecast-background-climate-change-concept-collage-of-sky-photos-with-variety-weather-1183589488.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #222;
+}
+#container{
+    width: 900px;
+    margin-top: 0px;
+    margin-inline: auto;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#place{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    font-size: 25px;
+
+}
+#autoComplete{
+    width: 600px;
+    height: 150px;
+    max-height: 150px;
+    padding: 0;
+    overflow: auto;
+}
+.item{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px #222 solid;
+    background-color: rgb(226, 250, 255);
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#weather{
+    margin-top: 30px;
+    width: 800px;
+    height: 247px;
+    overflow-x:auto;
+    overflow-y: hidden;
+    background-color: rgb(226, 250, 255);
+    border-radius:20px;
+    position: relative;
+    display: flex;
+    
+    z-index: 100;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(226, 250, 255);
+    text-shadow: #222 3px 0 3px, #222 -3px 0 3px, #222 0 3px 3px, #222 0 -3px 3px;
+}
+
+.oneDay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 150px;
+    min-width: 150px;
+    height: 216px;
+    background-color: aqua;  
+}
+.temp{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    margin-block: 2px;
+}
+.fullDay{
+    margin: 2px;
+}
+.weatherImg{
+    width: 90%;
+}
+.two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+}
+p{
+    margin: 2px;
+}
