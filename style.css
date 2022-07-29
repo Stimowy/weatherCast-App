@@ -53,7 +53,7 @@ body{
     border-radius:20px;
     position: relative;
     display: flex;
-    
+    background-color: transparent;
     z-index: 100;
     padding-top: 10px;
     box-sizing: border-box;
@@ -64,6 +64,8 @@ h1{
     color: rgb(226, 250, 255);
     text-shadow: #222 3px 0 3px, #222 -3px 0 3px, #222 0 3px 3px, #222 0 -3px 3px;
 }
+
+
 
 .oneDay{
     display: flex;
